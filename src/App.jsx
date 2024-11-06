@@ -1,3 +1,5 @@
+// eslint-disable-next-line no-unused-vars
+import React from "react"; // Make sure to import React
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ForgotPassword from "./Components/ForgotPassword";
 import PasswordReset from "./Components/PasswordReset";
