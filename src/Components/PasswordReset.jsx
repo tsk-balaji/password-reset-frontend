@@ -58,7 +58,7 @@ const ResetPassword = () => {
 
     try {
       setLoading(true);
-      const url = "https://password-reset-ys1m.onrender.com/resetPassword";
+      const url = "https://password-reset-13pt.onrender.com/resetPassword";
       const res = await axios.post(url, {
         password: newpassword,
         token: token,
