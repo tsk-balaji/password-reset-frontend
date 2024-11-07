@@ -1,5 +1,7 @@
 // eslint-disable-next-line no-unused-vars
-import { React, useState } from "react";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { useState } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import Avatar from "@mui/material/Avatar";
@@ -56,7 +58,7 @@ const ResetPassword = () => {
 
     try {
       setLoading(true);
-      const url = "https://password-reset-ys1m.onrender.com/resetPassword";
+      const url = "https://password-reset-13pt.onrender.com/resetPassword";
       const res = await axios.post(url, {
         password: newpassword,
         token: token,

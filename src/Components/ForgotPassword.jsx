@@ -16,7 +16,7 @@ function ForgotPassword() {
     try {
       // Update API endpoint to include full URL path
       const response = await axios.post(
-        "https://password-reset-ys1m.onrender.com/forgot-password",
+        "https://password-reset-13pt.onrender.com/forgot-password",
         { email }
       );
       setMessage(response.data.message);
